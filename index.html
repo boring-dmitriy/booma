@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+<nav class="gold-navbar">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 top-navigation">
+                <a class="navbar-brand">
+                    <img src="images/logo.svg" alt="Booma">
+                </a>
+                <a href="tel:036558485" class="top-navigation__navbar-tablet-call">
+                    <section class="navbar-tablet-call__txt">
+                        <span>жми и<br>звони<br></span>
+                        <span>9:00-21:00</span>
+                    </section>
+                    <img src="images/tablet-call.svg" alt="">
+                </a>
+            </div>
+            <div class="col-md-6 container__navbar-contacts">
+                <section class="navbar-contacts">
+                    <div class="row">
+                        <div class="col-md-12 navbar-contacts__one-row">
+                            <span>Заказы по тел:</span>
+                            <a href="tel:036558485">03-655-8485</a>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 navbar-contacts__one-row">
+                            <span>(вс-чт: 9:00-21:00 / пт: 9:00-15:00)</span>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</nav>
+<section class="top-header">
+    <div class="container top-header__desktop-container">
+        <h3>Ювелирные изделия<br> ручной работы</h3>
+        <button type="button" class="btn">Смотреть</button>
+        <div class="decoration-bg">
+            <img src="images/decoration.png" alt="">
+        </div>
+    </div>
+
+    <div class="container top-header__tablet-container">
+        <div class="tablet__decoration-bg">
+            <img src="images/decoration.png" alt="">
+        </div>
+        <section class="top-header__tablet-container__name">
+            <h3>Комплект “Диана”</h3>
+            <p>ювелирные изделия ручной работы</p>
+            <button type="button" class="btn">Смотреть</button>
+        </section>
+    </div>
+
+</section>
+<section class="kit">
+    <div class="container">
+        <h4 class="top-kit-txt">Комплект “Диана”<br> желтое золото, аметисты и бриллианты</h4>
+        <div class="row kit__cards">
+            <article class="col-md-4 kit__cards__one-ad">
+                <div class="card card-pendant">
+                    <div class="card-body card-body__pendant">
+                        <img src="images/decoration-card-one.png" alt="">
+                        <section class="card-body__container">
+                            <div class="card-body__payment">
+                                <span>160.55 х 18 = 2890₪</span>
+                            </div>
+                            <div class="card-body__total">
+                                <span>3300₪</span>
+                            </div>
+                        </section>
+                        <span class="card-body__number">/501/</span>
+                    </div>
+                    <div class="card-footer">
+                        <p><span>Цепочка (45 см) с кулоном</span> золото 585° (14к), подвеска инкрустирована аметистом и
+                            26
+                            бриллиантами весом 0,16 карат</p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md-4 kit__cards__one-ad">
+                <div class="card card-eardrop">
+                    <div class="card-body card-body__eardrop">
+                        <img src="images/decoration-card-two.png" alt="">
+                        <section class="card-body__container">
+                            <div class="card-body__payment">
+                                <span>160.55 х 18 = 2890₪</span>
+                            </div>
+                            <div class="card-body__total">
+                                <span>3300₪</span>
+                            </div>
+                        </section>
+                        <span class="card-body__number">/502/</span>
+                    </div>
+                    <div class="card-footer">
+                        <p><span>Цепочка (45 см) с кулоном</span> золото 585° (14к), подвеска инкрустирована аметистом и
+                            26
+                            бриллиантами весом 0,16 карат</p>
+                    </div>
+                </div>
+            </article>
+            <article class="col-md-4 kit__cards__one-ad">
+                <div class="card card-ring">
+                    <div class="card-body card-body__ring">
+                        <img src="images/decoration-card-three.png" alt="">
+                        <section class="card-body__container">
+                            <div class="card-body__payment">
+                                <span>160.55 х 18 = 2890₪</span>
+                            </div>
+                            <div class="card-body__total">
+                                <span>3300₪</span>
+                            </div>
+                        </section>
+                        <button type="button" class="btn card-body__table-ring-link card-body__table-ring"
+                                data-toggle="modal"
+                                data-target="#modal_ring-size">Размеры кольца
+                        </button>
+                        <span class="card-body__number">/503/</span>
+                    </div>
+                    <div class="card-footer">
+                        <p><span>Цепочка (45 см) с кулоном</span> золото 585° (14к), подвеска инкрустирована аметистом и
+                            26
+                            бриллиантами весом 0,16 карат</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="modal fade modal-ring-size" id="modal_ring-size" tabindex="-1" role="dialog"
+             aria-labelledby="modal_ring-size" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title" id="exampleModalLongTitle">Чтобы определить размер кольца, обвейте палец
+                            нитью или лентой, не пережимая, в один обхват. С помощью линейки измерьте ее длину в
+                            миллиметрах и сверьте с данной таблицей.</p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <table>
+                            <tr>
+                                <th>Длинна отрезка нити в мм</th>
+                                <th>Размер кольца</th>
+                            </tr>
+                            <tr>
+                                <td>37,7</td>
+                                <td>- 12 разм. /520/</td>
+                            </tr>
+                            <tr>
+                                <td>40,8</td>
+                                <td>- 13 разм. /515/</td>
+                            </tr>
+                            <tr>
+                                <td>47</td>
+                                <td>- 15 разм. /503/</td>
+                            </tr>
+                            <tr>
+                                <td>48,7</td>
+                                <td>- 15,5 разм. /522/</td>
+                            </tr>
+                            <tr>
+                                <td>50,3</td>
+                                <td>- 16 разм. /504/</td>
+                            </tr>
+                            <tr>
+                                <td>51,8</td>
+                                <td>- 16,5 разм. /517/</td>
+                            </tr>
+                            <tr>
+                                <td>53,4</td>
+                                <td>- 17 разм. /505/</td>
+                            </tr>
+                            <tr>
+                                <td>55</td>
+                                <td>- 17,5 разм. /518/</td>
+                            </tr>
+                            <tr>
+                                <td>58,1</td>
+                                <td>- 18,5 разм. /516/</td>
+                            </tr>
+                            <tr>
+                                <td>59,7</td>
+                                <td>- 19 разм. /507/</td>
+                            </tr>
+                            <tr>
+                                <td>61,3</td>
+                                <td>- 19,5 разм. /523/</td>
+                            </tr>
+                            <tr>
+                                <td>62,8</td>
+                                <td>- 20 разм. /508/</td>
+                            </tr>
+                            <tr>
+                                <td>66</td>
+                                <td>- 21 разм. /509/</td>
+                            </tr>
+                            <tr>
+                                <td>69,1</td>
+                                <td>- 22 разм. /510/</td>
+                            </tr>
+                            <tr>
+                                <td>70,7</td>
+                                <td>- 22,5 разм. /521/</td>
+                            </tr>
+                            <tr>
+                                <td>72,2</td>
+                                <td>- 23 разм. /511/</td>
+                            </tr>
+                            <tr>
+                                <td>73,8</td>
+                                <td>- 23,5 разм. /519/</td>
+                            </tr>
+                            <tr>
+                                <td>75,4</td>
+                                <td>- 24 разм. /512/</td>
+                            </tr>
+                            <tr>
+                                <td>78,5</td>
+                                <td>- 25 разм. /513/</td>
+                            </tr>
+                            <tr>
+                                <td>81,6</td>
+                                <td>- 26 разм. /514/</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <h4 class="kit__more-detailed">
+            Вы можете приобрести весь комплект* или одно из изделий.<br><span>*При покупке комплекта Вы получите существенную Скидку!</span>
+        </h4>
+        <div class="kit__more-detailed-btn-container">
+            <button type="button" class="btn kit__more-detailed-btn">Узнать больше</button>
+        </div>
+    </div>
+</section>
+
+
+<section class="order-form">
+    <div class="order-form-container">
+        <h3>Оставьте Ваши данные и мы перезвоним с подробностями</h3>
+        <div class="order-form__top-headline">Оператор свяжется с Вами по указанному телефону в течение 1 дня.</div>
+        <section class="order-form__input">
+            <label for="name">Ваше имя<span>*</span></label>
+            <div class="input-group">
+                <input type="text" class="form-control" id="name">
+            </div>
+        </section>
+        <section class="order-form__input">
+            <label for="phone">Телефон<span>*</span></label>
+            <div class="input-group">
+                <input type="text" class="form-control" id="phone">
+            </div>
+        </section>
+        <div class="order-form__checkbox">
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="check_booma">
+                <label class="custom-control-label" for="check_booma">Я согласен на получение маркетинговой информации
+                    от BOOMA</label>
+            </div>
+        </div>
+        <button type="button" class="btn order-form__btn-to-order">Primary</button>
+        <section class="order-form__privacy-txt-block">
+            <img src="images/close.svg" alt="">
+            <span>Ваши персональные данные защищены в соответствии с <a href="#">Политикой Конфиденциальности Данных</a></span>
+        </section>
+        <section class="order-form__delivery"><span>*</span><b>Доставка:</b> Осуществляется по всему Израилю в ближайшее
+            почтовое отделение или курьером на дом
+            в течение 14 раб. дней с момента оплаты. Условия доставки уточняйте у оператора.
+        </section>
+        <section class="order-form__buy-methods">
+            <div class="order-form__buy-methods__headline">Методы оплаты:</div>
+            <div class="row">
+                <div class="col-md-2 col-6 buy-methods__img">
+                    <img src="images/paymentmethod-visa.jpg" alt="">
+                </div>
+                <div class="col-md-2 col-6 buy-methods__img">
+                    <img src="images/paymentmethod-ae.jpg" alt="">
+                </div>
+                <div class="col-md-2 col-6 buy-methods__img">
+                    <img src="images/paymentmethod-mc.jpg" alt="">
+                </div>
+                <div class="col-md-2 col-6 buy-methods__img">
+                    <img src="images/paymentmethod-pp.jpg" alt="">
+                </div>
+                <div class="col-md-2 col-6 buy-methods__img">
+                    <img src="images/paymentmethod-us.jpg" alt="">
+                </div>
+                <div class="col-md-2 col-6 buy-methods__img">
+                    <img src="images/paymentmethod-cash.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="order-form__cash-txt">Возможна опция оплаты наличными при заказе свыше 1000 шекелей в центре
+            страны.<br>Проверьте у оператора по телефону:
+            <a href="tel:036558485">03-655-8485</a></section>
+    </div>
+</section>
+
+<section class="feedback">
+    <div class="container">
+        <h4 class="feedback__headline">ОТЗЫВЫ НАШИХ ПОКУПАТЕЛЕЙ</h4>
+
+
+        <div id="carouselDesktopIndicators" class="carousel carousel-desktop slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselDesktopIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselDesktopIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselDesktopIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row feedback__cards">
+                        <div class="col-md-3 feedback__cards__one-card">
+                            <div class="one-card__avatar"><img src="images/lidiya.png" alt=""></div>
+                            <div class="row">
+                                <div class="offset-md-7"></div>
+                                <div class="col-md-5 one-card__name">Лидия</div>
+                            </div>
+                            <div class="one-card__stars">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                            </div>
+                            <div class="one-card__txt">
+                                Очень красивое и изящное кольцо, на руке смотрится утонченно. Теперь хочу купить к нему
+                                сережки.
+                            </div>
+                            <span class="one-card__quotes"><img src="images/quotes.png" alt=""></span>
+                        </div>
+                        <div class="col-md-3 feedback__cards__one-card">
+                            <div class="one-card__avatar"><img src="images/michael.png" alt=""></div>
+                            <div class="row">
+                                <div class="offset-md-7"></div>
+                                <div class="col-md-5 one-card__name">Михаил</div>
+                            </div>
+                            <div class="one-card__stars">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                            </div>
+                            <div class="one-card__txt">
+                                Покупал жене на годовщину золотую цепочку с кулоном. Супруга оценила подарок!
+                            </div>
+                            <span class="one-card__quotes"><img src="images/quotes.png" alt=""></span>
+                        </div>
+                        <div class="col-md-3 feedback__cards__one-card">
+                            <div class="one-card__avatar"><img src="images/sophie.png" alt=""></div>
+                            <div class="row">
+                                <div class="offset-md-7"></div>
+                                <div class="col-md-5 one-card__name">София</div>
+                            </div>
+                            <div class="one-card__stars">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                            </div>
+                            <div class="one-card__txt">
+                                Просто великолепные украшения, элегантные, ничего лишнего, но как блестят!
+                            </div>
+                            <span class="one-card__quotes"><img src="images/quotes.png" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row feedback__cards">
+                        <div class="col-md-3 feedback__cards__one-card">
+                            <div class="one-card__avatar"><img src="images/lidiya.png" alt=""></div>
+                            <div class="row">
+                                <div class="offset-md-7"></div>
+                                <div class="col-md-5 one-card__name">Лидия</div>
+                            </div>
+                            <div class="one-card__stars">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                            </div>
+                            <div class="one-card__txt">
+                                Очень красивое и изящное кольцо, на руке смотрится утонченно. Теперь хочу купить к нему
+                                сережки.
+                            </div>
+                            <span class="one-card__quotes"><img src="images/quotes.png" alt=""></span>
+                        </div>
+                        <div class="col-md-3 feedback__cards__one-card">
+                            <div class="one-card__avatar"><img src="images/michael.png" alt=""></div>
+                            <div class="row">
+                                <div class="offset-md-7"></div>
+                                <div class="col-md-5 one-card__name">Михаил</div>
+                            </div>
+                            <div class="one-card__stars">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                            </div>
+                            <div class="one-card__txt">
+                                Покупал жене на годовщину золотую цепочку с кулоном. Супруга оценила подарок!
+                            </div>
+                            <span class="one-card__quotes"><img src="images/quotes.png" alt=""></span>
+                        </div>
+                        <div class="col-md-3 feedback__cards__one-card">
+                            <div class="one-card__avatar"><img src="images/sophie.png" alt=""></div>
+                            <div class="row">
+                                <div class="offset-md-7"></div>
+                                <div class="col-md-5 one-card__name">София</div>
+                            </div>
+                            <div class="one-card__stars">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                            </div>
+                            <div class="one-card__txt">
+                                Просто великолепные украшения, элегантные, ничего лишнего, но как блестят!
+                            </div>
+                            <span class="one-card__quotes"><img src="images/quotes.png" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row feedback__cards">
+                        <div class="col-md-3 feedback__cards__one-card">
+                            <div class="one-card__avatar"><img src="images/lidiya.png" alt=""></div>
+                            <div class="row">
+                                <div class="offset-md-7"></div>
+                                <div class="col-md-5 one-card__name">Лидия</div>
+                            </div>
+                            <div class="one-card__stars">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                            </div>
+                            <div class="one-card__txt">
+                                Очень красивое и изящное кольцо, на руке смотрится утонченно. Теперь хочу купить к нему
+                                сережки.
+                            </div>
+                            <span class="one-card__quotes"><img src="images/quotes.png" alt=""></span>
+                        </div>
+                        <div class="col-md-3 feedback__cards__one-card">
+                            <div class="one-card__avatar"><img src="images/michael.png" alt=""></div>
+                            <div class="row">
+                                <div class="offset-md-7"></div>
+                                <div class="col-md-5 one-card__name">Михаил</div>
+                            </div>
+                            <div class="one-card__stars">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                            </div>
+                            <div class="one-card__txt">
+                                Покупал жене на годовщину золотую цепочку с кулоном. Супруга оценила подарок!
+                            </div>
+                            <span class="one-card__quotes"><img src="images/quotes.png" alt=""></span>
+                        </div>
+                        <div class="col-md-3 feedback__cards__one-card">
+                            <div class="one-card__avatar"><img src="images/sophie.png" alt=""></div>
+                            <div class="row">
+                                <div class="offset-md-7"></div>
+                                <div class="col-md-5 one-card__name">София</div>
+                            </div>
+                            <div class="one-card__stars">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                            </div>
+                            <div class="one-card__txt">
+                                Просто великолепные украшения, элегантные, ничего лишнего, но как блестят!
+                            </div>
+                            <span class="one-card__quotes"><img src="images/quotes.png" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselDesktopIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselDesktopIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div id="carouselTabletIndicators" class="carousel carousel-tablet slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row feedback__cards">
+                        <div class="col-md-12 feedback__cards__one-card">
+                            <div class="one-card__avatar"><img src="images/lidiya.png" alt=""></div>
+                            <div class="row">
+                                <div class="offset-md-7 one-card__name__offset"></div>
+                                <div class="col-md-5 one-card__name">Лидия</div>
+                            </div>
+                            <div class="one-card__stars">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                            </div>
+                            <div class="one-card__txt">
+                                Очень красивое и изящное кольцо, на руке смотрится утонченно. Теперь хочу купить к нему
+                                сережки.
+                            </div>
+                            <span class="one-card__quotes"><img src="images/quotes.png" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row feedback__cards">
+                        <div class="col-md-12 feedback__cards__one-card">
+                            <div class="one-card__avatar"><img src="images/michael.png" alt=""></div>
+                            <div class="row">
+                                <div class="offset-md-7"></div>
+                                <div class="col-md-5 one-card__name">Михаил</div>
+                            </div>
+                            <div class="one-card__stars">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                            </div>
+                            <div class="one-card__txt">
+                                Покупал жене на годовщину золотую цепочку с кулоном. Супруга оценила подарок!
+                            </div>
+                            <span class="one-card__quotes"><img src="images/quotes.png" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row feedback__cards">
+                        <div class="col-md-12 feedback__cards__one-card">
+                            <div class="one-card__avatar"><img src="images/sophie.png" alt=""></div>
+                            <div class="row">
+                                <div class="offset-md-7"></div>
+                                <div class="col-md-5 one-card__name">София</div>
+                            </div>
+                            <div class="one-card__stars">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                                <img src="images/star.svg" alt="">
+                            </div>
+                            <div class="one-card__txt">
+                                Просто великолепные украшения, элегантные, ничего лишнего, но как блестят!
+                            </div>
+                            <span class="one-card__quotes"><img src="images/quotes.png" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselTabletIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselTabletIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <section class="footer">
+        <div class="container">
+            <div class="row footer-top-info">
+                <div class="col-md-2 footer__logo">
+                    <a href="#">
+                        <img src="images/logo-footer.svg" alt="Booma">
+                    </a>
+                </div>
+                <div class="col-md-6 footer__contacts">
+                    <p>© 2018-2019 Все права защищены.</p>
+                    <p>Заказы по тел: <a href="tel:036558485">03-655-8485</a> (вс-чт: 9:00-19:00/пт: 9:00-15:00)</p>
+                    <p>Обслуживание клиентов: <a href="tel:036940900">03-694-0900</a> (вс-чт: 9:00-16:00/пт: 9:00-13:00)
+                    </p>
+                    <p>Эл. почта: <a href="mailto:info@booma.co.il">info@booma.co.il</a></p>
+                </div>
+                <div class="col-md-4 footer__social">
+                    <div class="row footer__social__container">
+                        <div class="col-md-6 footer__social__container__txt footer__social__block">
+                            Мы в соц. Сетях:
+                        </div>
+                        <div class="col-md-6 footer__social__block">
+                            <a href="#"><img src="images/facebook-ico.svg" alt=""></a>
+                            <a href="#"><img src="images/video-ico.svg" alt=""></a>
+                            <a href="#"><img src="images/instagram-ico.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 footer__company-links">
+                    <a href="#">О нас</a>
+                    <a href="#">Оплата</a>
+                    <a href="#">Доставка</a>
+                </div>
+            </div>
+            <div class="row footer-txt">
+                <section class="col-sm-12">
+                    <p>BOOMA – социальный медиа проект для израильских потребителей от компании TELEFAN, Израиль (рег.
+                        н.
+                        514585188), созданный с целью рассказать и предложить товары и услуги, связанные с бытом и не
+                        только. Контактные данные, оставленные на этой странице, говорят о том, что вы заинтересовались
+                        данным товаром и/или услугой.</p>
+                    <p>BOOMA гарантирует, что ваши контактные данные не будут переданы третьим лицам и/или использованы
+                        в
+                        сторонних маркетинговых кaмпаниях, не связанных с BOOMA и контентом, расположенным на наших
+                        страницах в социальных сетях. Попав на данную страницу, вы соглашаетесь с <a href="#">Политикой
+                            конфиденциальности данных</a>.</p>
+                </section>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-sm-6 footer__warranty">
+                    <img src="images/footer-delivery.svg" alt="">
+                </div>
+                <div class="col-md-2 col-sm-6 footer__warranty">
+                    <img src="images/footer-quality.svg" alt="">
+                </div>
+                <div class="col-md-2 col-sm-6 footer__warranty">
+                    <img src="images/footer-warranty.svg" alt="">
+                </div>
+                <div class="col-md-2 col-sm-6 footer__warranty">
+                    <img src="images/footer-certificate.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+</body>
+
+<script src="js/jquery-3.3.1.slim.js" charset="utf-8"></script>
+<script src="js/popper.js" charset="utf-8"></script>
+<script src="assets/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+
+</html>
