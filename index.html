@@ -50,7 +50,9 @@
 <section class="top-header">
     <div class="container top-header__desktop-container">
         <h3>Ювелирные изделия<br> ручной работы</h3>
-        <button type="button" class="btn">Смотреть</button>
+        <a href="#view">
+            <button type="button" class="btn">Смотреть</button>
+        </a>
         <div class="decoration-bg">
             <img src="images/decoration.png" alt="">
         </div>
@@ -68,7 +70,7 @@
     </div>
 
 </section>
-<section class="kit">
+<section class="kit" id="view">
     <div class="container">
         <h4 class="top-kit-txt">Комплект “Диана”<br> желтое золото, аметисты и бриллианты</h4>
         <div class="row kit__cards">
@@ -253,13 +255,15 @@
             Вы можете приобрести весь комплект* или одно из изделий.<br><span>*При покупке комплекта Вы получите существенную Скидку!</span>
         </h4>
         <div class="kit__more-detailed-btn-container">
-            <button type="button" class="btn kit__more-detailed-btn">Узнать больше</button>
+            <a href="#more">
+                <button type="button" class="btn kit__more-detailed-btn">Узнать больше</button>
+            </a>
         </div>
     </div>
 </section>
 
 
-<section class="order-form">
+<section class="order-form" id="more">
     <div class="order-form-container">
         <h3>Оставьте Ваши данные и мы перезвоним с подробностями</h3>
         <div class="order-form__top-headline">Оператор свяжется с Вами по указанному телефону в течение 1 дня.</div>
@@ -282,7 +286,7 @@
                     от BOOMA</label>
             </div>
         </div>
-        <button type="button" class="btn order-form__btn-to-order">Primary</button>
+        <button type="button" class="btn order-form__btn-to-order">ЗАКАЗАТЬ</button>
         <section class="order-form__privacy-txt-block">
             <img src="images/close.svg" alt="">
             <span>Ваши персональные данные защищены в соответствии с <a href="#">Политикой Конфиденциальности Данных</a></span>
@@ -673,8 +677,9 @@
 
 </body>
 
-<script src="js/jquery-3.3.1.slim.js" charset="utf-8"></script>
+<script src="js/jquery.js" charset="utf-8"></script>
 <script src="js/popper.js" charset="utf-8"></script>
 <script src="assets/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
-
+<script src="js/custom-js/script.js"></script>
 </html>
+0
